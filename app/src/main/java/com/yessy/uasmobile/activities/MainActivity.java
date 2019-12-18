@@ -1,8 +1,10 @@
-package com.yessy.uasmobile;
+package com.yessy.uasmobile.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.yessy.uasmobile.R;
 
 public class MainActivity extends AppCompatActivity {
 
