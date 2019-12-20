@@ -31,6 +31,7 @@
         android:layout_marginTop="36dp"
         android:text="ABOUT JENGGALA RENTAL OUTDOOR"
         app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="handleAbout"
         app:layout_constraintHorizontal_bias="0.021"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"
