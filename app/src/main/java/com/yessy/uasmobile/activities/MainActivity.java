@@ -21,4 +21,9 @@ import com.yessy.uasmobile.R;
                 Intent intent = new Intent(this, LoginActivity.class);
                 startActivity(intent);
             }
+
+        public void Create(View view) {
+            Intent intent = new Intent(this, CreateAccountActivity.class);
+            startActivity(intent);
         }
+    }
