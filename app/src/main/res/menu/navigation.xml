@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/action_food"
+            android:icon="@drawable/about_png_6"
+            android:title="About" />
+
+        <item
+            android:id="@+id/action_regulation"
+            android:icon="@drawable/re"
+            android:title="Regulation" />
+
+        <item android:id="@+id/action_discount"
+            android:title="Discount"
+            android:icon="@drawable/ic_discount" />
+</menu>
