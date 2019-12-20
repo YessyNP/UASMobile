@@ -2,9 +2,7 @@ package com.yessy.uasmobile.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
 import com.yessy.uasmobile.R;
 
@@ -16,14 +14,8 @@ import com.yessy.uasmobile.R;
             setContentView(R.layout.activity_main);
         }
 
-        public void Login(View view) {
-
-                Intent intent = new Intent(this, LoginActivity.class);
-                startActivity(intent);
             }
 
-        public void Create(View view) {
-            Intent intent = new Intent(this, CreateAccountActivity.class);
-            startActivity(intent);
-        }
-    }
+
+
+
