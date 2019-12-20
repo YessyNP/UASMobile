@@ -29,7 +29,7 @@
         android:textColor="#313131"
         android:textSize="20sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edt_reset_code" />
+        app:layout_constraintTop_toBottomOf="@+id/edt_reset_username" />
 
     <TextView
         android:id="@+id/welcome_back"
@@ -70,7 +70,7 @@
         app:layout_constraintTop_toBottomOf="@+id/sign_in" />
 
     <EditText
-        android:id="@+id/edt_reset_code"
+        android:id="@+id/edt_reset_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="24dp"
@@ -91,7 +91,7 @@
         android:textColor="#313131"
         android:textSize="20sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edt_reset_code" />
+        app:layout_constraintTop_toBottomOf="@+id/edt_reset_username" />
 
     <EditText
         android:id="@+id/edt_new_password"
@@ -107,6 +107,7 @@
 
 
     <Button
+        android:id="@+id/btn_reg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
