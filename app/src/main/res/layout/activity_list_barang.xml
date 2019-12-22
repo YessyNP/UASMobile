@@ -96,6 +96,7 @@
         android:layout_marginLeft="68dp"
         android:layout_marginTop="96dp"
         android:text="View And Booking"
+        android:onClick="Sepatu"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/button6" />
 </androidx.constraintlayout.widget.ConstraintLayout>

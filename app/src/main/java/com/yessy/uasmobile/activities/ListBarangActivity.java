@@ -30,4 +30,9 @@ public class ListBarangActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MatrasActivity.class);
         startActivity(intent);
     }
+
+    public void Sepatu(View view) {
+        Intent intent = new Intent(this, SepatuActivity.class);
+        startActivity(intent);
+    }
 }
