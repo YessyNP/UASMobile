@@ -40,16 +40,11 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="249dp"
-        android:layout_height="330dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginRight="50dp"
+        android:layout_width="420dp"
+        android:layout_height="326dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/store" />
+        app:srcCompat="@drawable/landscape_158873_960_720" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
