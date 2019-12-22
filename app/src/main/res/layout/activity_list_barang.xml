@@ -56,6 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:text="View And Booking"
+        android:onClick="Tenda"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.745"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
