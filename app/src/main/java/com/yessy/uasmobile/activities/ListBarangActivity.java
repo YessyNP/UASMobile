@@ -25,4 +25,9 @@ public class ListBarangActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TasActivity.class);
         startActivity(intent);
     }
+
+    public void Matras(View view) {
+        Intent intent = new Intent(this, MatrasActivity.class);
+        startActivity(intent);
+    }
 }
