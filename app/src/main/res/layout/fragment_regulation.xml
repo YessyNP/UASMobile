@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,8 +8,136 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/textView14"
+        android:layout_width="398dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:text="SYARAT DAN KETENTUAN UNTUK MENYEWA"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="1. Perhitungan Sewa di Jenggala Rental Outdoor adalah Permalam"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="36dp"
+        android:text="2. Saat pengambilan perlengkapan/barang, setiap penyewa wajib meninggalkan kartu identitas berupa KTM/KTP/SIM"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="403dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="36dp"
+        android:text="3. Pengagendaan dan Penjadwalan perlengkapan persewaan hanya diperuntukan bagi penyewa/pelanggan yang telah membayar Dana Pertama (DP)."
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="395dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="4. Besarnya Dana Pertama (DP) adalah Minimal 25% dari seluruh Dana Sewa. Untuk Pemesanan Partai Besar (Seluruh Dana Sewa diatas 3jt) Minimal DP 50%"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="395dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="5. Bawalah Nota anda saat Pengambilan maupun Pengembalian Perlengkapan / barang."
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="393dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="6. Saat pengambilan perlengkapan/barang, setiap penyewa WAJIB Melunasi Seluruh Dana Sewa"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="7. Kami tidak melayani Pembatalan Pesanan, Pengurangan Jumlah Pesanan, Ganti Pesanan. Pembatalan akan dikenakan cas sebesar 25% dari total dana Sewa."
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="372dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="8. Barang Persewaan yang sudah dibawa keluar dari area Jenggala Rental Outdoor sudah dianggap sewa."
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="395dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="9. Point-point tersebut di atas merupakan kesepakatan yang harus di taati bagi penyewa."
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
