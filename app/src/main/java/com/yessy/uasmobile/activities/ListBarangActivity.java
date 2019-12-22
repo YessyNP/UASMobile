@@ -20,4 +20,9 @@ public class ListBarangActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TendaActivity.class);
         startActivity(intent);
     }
+
+    public void Tas(View view) {
+        Intent intent = new Intent(this, TasActivity.class);
+        startActivity(intent);
+    }
 }
